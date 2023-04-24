@@ -6,4 +6,7 @@
 *.JPEG
 *.jpg
 *.JPG
+*test*
+*TEST*
+*Test*
 AddInsforGithub/*
