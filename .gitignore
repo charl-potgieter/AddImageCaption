@@ -1,0 +1,9 @@
+*.xlsx
+*.xlsm
+*.xlam
+*.pdf
+*.jpeg
+*.JPEG
+*.jpg
+*.JPG
+AddInsforGithub/*
