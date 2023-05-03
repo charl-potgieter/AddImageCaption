@@ -8,5 +8,12 @@ config = {
     
     # Below Tuple contains percentage of frame, lower border, other border compared to longest side of image
     # Border is area between frame and image
-    'image_ratios': (0.0075, 0.05, 0.03)
+    'image_ratios': (0.0075, 0.05, 0.03), 
+    
+    'border_colour': 'RGB(220,220,220)',
+    
+    'frame_colour': 'RGB(120,75,50)',
+    
+    'font_colour': 'RGB(0,0,0)'
+    
 }
