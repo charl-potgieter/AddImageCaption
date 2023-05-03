@@ -1,7 +1,7 @@
 config = {
-    'in_dir': r'D:\Onedrive\Documents_Charl\Computer_Technical\Programming_GitHub\AddImageCaption\Test_In_Folder',
+    'in_dir': '/home/charl/OneDrive/Documents_Charl/Computer_Technical/Programming_GitHub/AddImageCaption/Test_In_Folder/',
     
-    'out_dir': r'D:\Onedrive\Documents_Charl\Computer_Technical\Programming_GitHub\AddImageCaption\Test_Out_Folder',
+    'out_dir': '/home/charl/OneDrive/Documents_Charl/Computer_Technical/Programming_GitHub/AddImageCaption/Test_Out_Folder/',
     
     # Below Tuple contains percentage of frame, lower border, other border compared to longest side of image
     # Border is area between frame and image
