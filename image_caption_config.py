@@ -10,6 +10,15 @@ config = {
     'border_colour': 'RGB(220,220,220)',
     
     'frame_colour': 'RGB(120,75,50)',
+ 
+    # Note below needs to be a TrueType or OpenType font as required by python-pillow and needs to be installed on the system
+    'font': 'DejaVuSerif.ttf',
     
-    'font_colour': 'RGB(0,0,0)'
+    'font_size_as_percentage_of_image_longest_side' :  0.02,
+    
+    'font_colour': 'RGB(0,0,0)',
+    
+    # Only caption images if XMP description (Windows title) contains below prefix.  If blank all descriptions will be used for captioning
+    'caption_prefix' : '<cjp>'
+    
 }
