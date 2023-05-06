@@ -14,7 +14,8 @@ config = {
     # Note below needs to be a TrueType or OpenType font as required by python-pillow and needs to be installed on the system
     'caption_font': 'DejaVuSerif.ttf',
     
-    'font_size_as_percentage_of_image_longest_side' :  0.02,
+    # Font size as a percentage of image longest side
+    'font_ratio' :  0.015,
     
     'font_colour': 'RGB(0,0,0)',
     
