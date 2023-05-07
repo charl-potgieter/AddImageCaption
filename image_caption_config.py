@@ -16,8 +16,12 @@ config = {
     # Note below needs to be a TrueType or OpenType font as required by python-pillow and needs to be installed on the system
     'caption_font': 'DejaVuSerif.ttf',
     
-    # Font size as a percentage of image longest side
+    # Font size as a percentage of image longest side 
+    # Font size is set with a ratio as otherwise even large font will appear very small on a high res image that is shrunk to fit on screen
     'font_ratio' :  0.015,
+    
+    # Allows for setting of a minimum font size covering event where size calcualted by ratio above is too small on a low res image
+    'font_size_min': 80,
     
     'font_colour': 'RGB(0,0,0)',
     
